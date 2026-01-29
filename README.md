@@ -1,6 +1,6 @@
 # pwcheck
 
-A local-only password hygiene dashboard that helps you **spot password reuse** and **weak password patterns** across the accounts in your exported password CSV — without ever showing passwords on screen.
+A local-only password hygiene dashboard that helps you **spot password reuse** and **weak password patterns** across the accounts in your exported password CSV without ever showing passwords on screen.
 
 ![pwcheck screenshot](./Example.png)
 
@@ -8,7 +8,7 @@ A local-only password hygiene dashboard that helps you **spot password reuse** a
 
 pwcheck analyzes your exported password list and highlights:
 
-- **Reuse**: the same password used across multiple accounts (shown as `REUSED ×N`)
+- **Reuse**: the same password used across multiple accounts (shown as `REUSED xN`)
 - **Weakness signals**: simple policy checks like minimum length and missing character types (shown as `WEAK`)
 - **Risk**: a basic, explainable score used to sort/prioritize what to fix first
 
