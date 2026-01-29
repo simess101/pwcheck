@@ -1,0 +1,12 @@
+{
+  "name": "pwcheck",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace apps/desktop run dev",
+    "build": "npm --workspace apps/desktop run build"
+  }
+}
